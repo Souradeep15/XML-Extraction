@@ -1,14 +1,14 @@
-\# XML Attribute Extraction Challenge
+# XML Attribute Extraction Challenge
 
 
 
-\## Overview
+## Overview
 
 This script extracts all `<doc-number>` values from a given XML patent file, prioritizing:
 
-1\. Entries where `format="epo"`
+1. Entries where `format="epo"`
 
-2\. Entries where `format="original"` (from `load-source="patent-office"`)
+2. Entries where `format="original"` (from `load-source="patent-office"`)
 
 
 
@@ -28,6 +28,7 @@ Install dependencies and run using **uv**:
 ```uv sync```
 
 Run this to extract the document numbers:
+
 ```uv run python extract\_doc\_numbers.py sample.xml```
 
 
