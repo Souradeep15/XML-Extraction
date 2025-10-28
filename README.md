@@ -12,7 +12,7 @@ This script extracts all `<doc-number>` values from a given XML patent file, pri
 
 
 
-\## Assumptions
+## Assumptions
 
 * All XML files are utf-8 encoded
 * The XML may have missing tags or malformed attributes.
@@ -21,7 +21,7 @@ This script extracts all `<doc-number>` values from a given XML patent file, pri
 
 
 
-\## Setup
+## Setup
 
 Install dependencies and run using **uv**:
 
