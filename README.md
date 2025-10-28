@@ -23,17 +23,12 @@ This script extracts all `<doc-number>` values from a given XML patent file, pri
 
 \## Setup
 
-Install dependencies and run using \*\*uv\*\*:
+Install dependencies and run using **uv**:
 
+```uv sync```
 
-
-```bash
-
-uv sync
-
-```bash
-
-uv run python extract\_doc\_numbers.py sample.xml
+Run this to extract the document numbers:
+```uv run python extract\_doc\_numbers.py sample.xml```
 
 
 
