@@ -29,7 +29,7 @@ Install dependencies and run using **uv**:
 
 Run this to extract the document numbers:
 
-```uv run python extract\_doc\_numbers.py sample.xml```
+```uv run python extract_doc_numbers.py sample.xml```
 
 
 
